@@ -29,7 +29,7 @@ namespace VideoCov // Note: actual namespace depends on the project name.
 
                 if (args[0].Equals("mkv转mp4") || args[0].Equals("-mkv2mp4"))
                 {
-                    Utilities.video.mkv2mp4("1","1");
+                    Utilities.Video.mkv2mp4(args[1].ToString(), args[2].ToString());
                 };
             } ;
             if (debug)
