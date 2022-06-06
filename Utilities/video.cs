@@ -37,5 +37,14 @@ namespace VideoCov.Utilities
             TimeSpan time = afterDT.Subtract(beforDT);
             Console.WriteLine("[mkv转mp4] 转码结束，用时{0}",time);
         }
+        public static void tohevc(string source,string output)
+        {
+                
+        }
+        public static void dianyaoboy()
+        {
+
+        }
+
     }
 }
