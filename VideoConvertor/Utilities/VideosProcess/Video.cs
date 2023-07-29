@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using VideoConvertor.Utilities.Files;
-using VideoConvertor.Utilities.Logs;
+using VideoConvertor.Utilities.LogsHelper;
 
 namespace VideoConvertor.Utilities.VideosProcess;
 

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Configuration;
 using System.Diagnostics;
-using VideoConvertor.Utilities.Logs;
+using VideoConvertor.Utilities.LogsHelper;
 
 namespace VideoConvertor.Utilities;
 
