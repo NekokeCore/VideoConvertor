@@ -49,5 +49,4 @@ public class VideoDownloader
         var time = afterDT.Subtract(beforDT);
         CommonLog.Log(0, "视频解析", "视频下载完成，用时" + Math.Round(time.TotalSeconds, 2) + "s");
     }
-    
 }
