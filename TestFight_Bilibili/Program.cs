@@ -62,7 +62,7 @@ internal class Program
         myDictionary.Add("fnver", "0");
         myDictionary.Add("fourk", "1");
         var sessdata =
-            "SESSDATA=";
+            "SESSDATA=42ec6cb8%2C1706679154%2C08805%2A827RtUgiB7N8suyEwBb4HgmrVD0u6AxAx_on9h_YG7M9wDTjiB94oluwXhcjKEwwcaNU0WJwAAPwA";
         var getvideo = get.HttpGetData("https://api.bilibili.com/x/player/playurl", sessdata, myDictionary);
         return getvideo;
     }
@@ -72,7 +72,7 @@ internal class Program
         var myDictionary = new Dictionary<string, string>();
         myDictionary.Add("bvid", bv);
         var sessdata =
-            "SESSDATA=";
+            "SESSDATA=42ec6cb8%2C1706679154%2C08805%2A827RtUgiB7N8suyEwBb4HgmrVD0u6AxAx_on9h_YG7M9wDTjiB94oluwXhcjKEwwcaNU0WJwAAPwA";
         var getcid = get.HttpGetData("https://api.bilibili.com/x/player/pagelist", sessdata, myDictionary);
         return getcid;
     }
